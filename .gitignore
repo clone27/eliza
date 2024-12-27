@@ -1,56 +1,59 @@
-node_modules
-/out
-
+# Runtime files
 .env
-.env.production
-.env.local
-.env_main
-concatenated-output.ts
-embedding-cache.json
-packages/plugin-buttplug/intiface-engine
+.env.*
+!.env.example
+*.log
+logs/
 
-.DS_Store
-
+# Build and cache
 dist/
-# Allow models directory but ignore model files
-models/*.gguf
+.turbo
+node_modules/
+.venv/
+__pycache__/
+*.pyc
 
-cookies.json
-
+# Data and media
+*.sqlite
 db.sqlite
-searches/
-tweets/
-
 *.gguf
 *.onnx
 *.wav
 *.mp3
-
-logs/
-
-test-report.json
 content_cache/
+embedding-cache.json
+
+# Test and debug
+test-report.json
 test_data/
+debug/
+
+# Application specific
+characters/
+searches/
+tweets/
 tokencache/
 tweetcache/
 twitter_cookies.json
 timeline_cache.json
 
-*.sqlite
+# IDE and system
+.DS_Store
+.vscode/
+.idea/
 
-characters/
-
+# Additional ignores
+/out
+concatenated-output.ts
+packages/plugin-buttplug/intiface-engine
+cookies.json
+models/*.gguf
+coverage
+.eslintcache
+API_KEYS.md
 packages/core/src/providers/cache
 packages/core/src/providers/cache/*
 cache/*
 packages/plugin-coinbase/src/plugins/transactions.csv
 packages/plugin-coinbase/package-lock.json
-
 tsup.config.bundled_*.mjs
-
-.turbo
-
-coverage
-.eslintcache
-
-agent/content
