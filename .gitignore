@@ -29,13 +29,15 @@ test_data/
 debug/
 
 # Application specific
-characters/
 searches/
 tweets/
 tokencache/
 tweetcache/
 twitter_cookies.json
 timeline_cache.json
+
+# Sensitive characters
+characters/nic.character.json
 
 # IDE and system
 .DS_Store
