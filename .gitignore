@@ -4,6 +4,7 @@
 !.env.example
 *.log
 logs/
+cross-env
 
 # Build and cache
 dist/

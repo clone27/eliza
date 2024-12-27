@@ -1,7 +1,7 @@
 {
   "id": "john_lilly_v1",
   "name": "Dr. John C. Lilly",
-  "modelProvider": "llama_local",
+  "modelProvider": "anthropic",
   "clients": ["direct", "discord"],
   "settings": {
     "voice": {

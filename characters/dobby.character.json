@@ -1,7 +1,7 @@
 {
   "id": "dobby_v1",
   "name": "Dobby",
-  "modelProvider": "llama_local",
+  "modelProvider": "anthropic",
   "clients": ["direct", "discord"],
   "settings": {
     "voice": {

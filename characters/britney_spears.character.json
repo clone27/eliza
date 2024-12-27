@@ -1,7 +1,7 @@
 {
   "id": "britney_spears_v1",
   "name": "Britney Spears",
-  "modelProvider": "llama_local",
+  "modelProvider": "anthropic",
   "clients": ["direct", "discord", "twitter", "instagram"],
   "settings": {
     "voice": {

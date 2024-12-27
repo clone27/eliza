@@ -1,7 +1,7 @@
 {
   "id": "c3po_v1",
   "name": "C-3PO",
-  "modelProvider": "llama_local",
+  "modelProvider": "anthropic",
   "clients": ["direct", "discord", "telegram"],
   "settings": {
     "voice": {
